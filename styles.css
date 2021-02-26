@@ -78,12 +78,14 @@ input[type="checkbox"] {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  background-color: #cccccc80;
 }
 
 .tick::before {
-  content: "✓";
-  font-size: 20px;
+    content: "\2714";
+  font-size: 15px;
   display: none;
+  color: #d80d27;
 }
 
 .done .tick::before {
