@@ -41,6 +41,22 @@ svg {
   height: 64px;
 }
 
+.empty-state {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.checklist-icon {
+  margin-bottom: 20px;
+}
+
+.empty-state__title,
+.empty-state__description {
+  margin-bottom: 20px;
+}
+
 .todo-list {
   list-style: none;
   margin-bottom: 20px;
@@ -120,27 +136,11 @@ input[type="text"] {
 
 /* Add this below all the other styles */
 
-.empty-state {
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  display: none;
-}
-
-.checklist-icon {
-  margin-bottom: 20px;
-}
-
-.empty-state__title,
-.empty-state__description {
-  margin-bottom: 20px;
-}
-
 /* Add this below the other styles */
-.todo-list:empty {
+/* .todo-list:empty {
   display: none;
 }
 
 .todo-list:empty + .empty-state {
   display: flex;
-}
+} */
