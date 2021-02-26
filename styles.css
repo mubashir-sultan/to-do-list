@@ -45,7 +45,6 @@ svg {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  display: none;
 }
 
 .checklist-icon {
